@@ -23,7 +23,8 @@ Import snake.ova from virtualbox and start !!
 ```
 sudo dd bs=512 if=snake.img of=/dev/YOUR_USB_KEY_DEVICE
 ```
-Replace YOUR_USB_KEY_DEVICE  with sdb / sdc or .. be careful if you choose the wrong device your computer might broke.
+Replace YOUR_USB_KEY_DEVICE by your usb device (example: sdb or sdc). Be careful if you choose the wrong device your computer might broke.
+
 Booting on this USB device will not hurt your computer, I promise.
 
 ## Start from bochs
