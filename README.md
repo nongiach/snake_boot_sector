@@ -33,4 +33,8 @@ $ bochs 'boot:a' 'floppya: 1_44=snake.img, status=inserted'
 
 ---
 
-By [@chaign\_c][https://twitter.com/chaign_c] from [HexpressoTeam][http://www.hexpresso.fr/].
+By [@chaign\_c][] from [HexpressoTeam][hexpresso].
+
+
+[hexpresso]:     https://hexpresso.github.io
+[@chaign\_c]:    https://twitter.com/chaign_c
