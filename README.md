@@ -3,7 +3,7 @@
 Hi folks ! Here is one of my one weekend project that I made back in 2013.
 
 
-# What is it ?
+# What is this ?
 
 A custom MBR (Master Boot Record) booting a snake game. Once installed on an usb flash drive it will boot instead of your system.
 
