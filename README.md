@@ -8,7 +8,7 @@ A custom MBR (Master Boot Record) booting a snake game. If left on an usb key it
 
 # ScreenToGif
 
-!\[Alt Text\](/snake.gif)
+![Alt Text](/snake.gif)
 
 ## Start from qemu
 ```sh
