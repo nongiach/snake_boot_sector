@@ -1,0 +1,24 @@
+# Disk DescriptorFile
+version=1
+CID=609a7856
+parentCID=ffffffff
+createType="fullDevice"
+
+# Extent description
+RW 2280 FLAT "/dev/loop0" 0
+
+# The disk Data Base 
+#DDB
+
+ddb.virtualHWVersion = "4"
+ddb.adapterType="ide"
+ddb.geometry.cylinders="2"
+ddb.geometry.heads="16"
+ddb.geometry.sectors="63"
+ddb.uuid.image="8e31a5d3-928d-460e-abb9-ec34013ee1e4"
+ddb.uuid.parent="00000000-0000-0000-0000-000000000000"
+ddb.uuid.modification="00000000-0000-0000-0000-000000000000"
+ddb.uuid.parentmodification="00000000-0000-0000-0000-000000000000"
+ddb.geometry.biosCylinders="2"
+ddb.geometry.biosHeads="16"
+ddb.geometry.biosSectors="63"

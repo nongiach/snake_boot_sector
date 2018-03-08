@@ -1,0 +1,6 @@
+1:
+sudo losetup /dev/loop0
+vboxmanage internalcommands createrawvmdk -filename snake.vmdk -rawdisk /dev/loop0
+
+2:
+VBoxManage convertfromraw snake.img snake.vdi --format vdi
