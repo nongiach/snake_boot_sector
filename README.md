@@ -1,11 +1,11 @@
 # Snake game on MBR
 
-Hi folks ! Here is one of my one weekend project that I made back in 2013. I find it funny and worth sharing.
+Hi folks ! Here is one of my one weekend project that I made back in 2013.
 
 
 # What is it ?
 
-A custom MBR (Master Boot Record) booting a snake game. If left on an usb key it will boot instead of your system.
+A custom MBR (Master Boot Record) booting a snake game. Once installed on an usb flash drive it will boot instead of your system.
 
 # ScreenToGif
 
@@ -24,9 +24,9 @@ Import snake.ova from virtualbox and start !!
 ```
 sudo dd bs=512 if=snake.img of=/dev/YOUR_USB_KEY_DEVICE
 ```
-*Replace YOUR_USB_KEY_DEVICE by your usb device (example: sdb or sdc).* Be careful if you choose the wrong device your computer might broke.
+*Replace YOUR_USB_KEY_DEVICE by your usb device (example: sdb or sdc).* Be careful if you choose the wrong device your computer might break.
 
-Booting on this USB device will not hurt your computer.
+Booting on this USB device will not harm your computer.
 
 ## Start from bochs
 ```sh
