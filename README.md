@@ -1,6 +1,6 @@
 # Snake game on MBR
 
-Hi folks ! Here is one of my one weekend project that I made back in 2013.
+Hi folks! Here is one of my one weekend project that I made back in 2013.
 
 
 # What is this ?
