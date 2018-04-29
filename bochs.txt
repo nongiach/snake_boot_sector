@@ -1,3 +1,0 @@
-bochs 'boot:a' 'floppya: 1_44=snake.img, status=inserted'
-
-

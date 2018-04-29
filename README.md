@@ -33,9 +33,20 @@ $ sudo dd bs=512 if=snake.img of=/dev/YOUR_USB_KEY_DEVICE
 Booting on this USB device will not harm your computer.
 
 ## Start from [bochs](http://bochs.sourceforge.net)
+
+Tested using bochs [BIOS v2.6.2](http://bochs.sourceforge.net/cgi-bin/lxr/source/bios/BIOS-bochs-latest?raw=1&v=2.6.2) and [VGABIOS v2.6.2](http://bochs.sourceforge.net/cgi-bin/lxr/source/bios/VGABIOS-lgpl-latest?raw=1&v=2.6.2).
+
 ```sh
-$ bochs 'boot:a' 'floppya: 1_44=snake.img, status=inserted'
+$ bochs
 ```
+
+If the bios is not found by bochs, create a dedicated configuration file and include it at runtime with
+
+```sh
+$ bochs '#include PATH/TO/YOUR/CONFIGURATION/FILE'
+```
+
+*Note: when using git bash in windows, the path should be formatted for windows ("c:\PATH\TO\FILE") instead of an unix path ("/c/PATH/TO/FILE")*
 
 ---
 
